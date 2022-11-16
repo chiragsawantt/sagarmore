@@ -1,0 +1,85 @@
+@media only screen and (max-width:1024px){
+	.about_content_area {
+		padding: 100px 50px !important;
+	}
+	.about_btn .contact_number {
+		position: relative !important;
+		right: 0 !important;
+	}
+}
+@media only screen and (max-width:991px){
+	.navbar-default .navbar-nav>li>a {
+		padding: 15px 0!important;
+	}
+	.about_img{
+		text-align: center;
+	}
+	.about_img img {
+		top: 0!important;
+		left: 0!important;
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+	.single_about .about_img:after{
+		display: none;
+	}
+	.about_content_area {
+		padding: 0 0 100px 0 !important;
+	}
+	.rs_pb_70{
+		padding-bottom: 70px !important;
+	}
+	.single_counter{
+		margin-bottom: 30px;
+	}
+	.single_testimonial .description {
+		padding: 0 !important;
+	}
+	.single_testimonial .description:before{
+		left: -45px !important;
+	}
+	.single_contact {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) { 
+	.navbar-default{
+		padding: 10px 0!important;
+	}
+	.menu-top {
+		background: #fff!important;
+		text-align: center;
+	}
+	.menu-top.dark_bg_menu{
+		background: #000!important;
+		text-align: center;
+	}
+	.navbar-default.sticky_menu li a,
+	.navbar-default.sticky_menu .navbar-nav>.active>a,
+	.navbar-default.sticky_menu .navbar-nav>.active>a:hover, 
+	.navbar-default.sticky_menu .navbar-nav>.active>a:focus {
+		color: #000;
+		background: none;
+	}
+	.navbar-default.sticky_menu li a:focus, 
+	.navbar-default.sticky_menu li a:hover {
+		color: #000;
+	}
+	.banner_content strong{
+		font-size: 26px !important;
+	}
+	.banner_content h1{
+		font-size: 42px !important;
+	}
+	.about_image{
+		text-align: center;
+	}
+	.about_content_area{
+		margin-top: 50px;
+		padding-left: 0 !important;
+	}
+	.single_blog{
+		margin-bottom: 30px;
+	}
+}
